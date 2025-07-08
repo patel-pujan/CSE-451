@@ -28,7 +28,7 @@ include kernel/Makefrag
 
 ifeq ($(UNAME_S),Darwin)
 USE_CLANG	?= 1
-TOOLPREFIX	?= $(ARCH)-linux-gnu-
+TOOLPREFIX	?= $(ARCH)-elf-
 endif
 
 ifdef USE_CLANG
